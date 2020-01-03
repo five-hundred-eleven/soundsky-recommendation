@@ -7,3 +7,4 @@ db.authenticate(os.environ["SOUNDSKY_USER"], os.environ["SOUNDSKY_PASS"])
 
 
 artists = db["artists"]
+tracks = db["tracks"]
