@@ -7,7 +7,10 @@ app = Flask(__name__)
 @app.route("/music")
 def index():
 
-    artist = request.args.get("artist").lower()
+    artist = request.args.get("artist")
+    if artist:
+        artist = artist.lower()
+
     res = tracks.find({"artist": artist})
 
     return jsonify([x for x in res])
