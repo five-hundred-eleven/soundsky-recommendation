@@ -60,7 +60,7 @@ nodejs==0.1.1
 notebook==6.0.2
 npm==0.1.1
 numba==0.46.0
-numpy==1.17.4
+numpy==1.22.0
 optional-django==0.1.0
 packaging==19.2
 pandas==0.21.1
